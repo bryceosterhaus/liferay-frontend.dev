@@ -1,0 +1,48 @@
+@import 'atlas';
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	background-color: $gray-800;
+}
+
+.brand {
+	color: $white;
+	margin-top: 16px;
+}
+
+.home-banner {
+	color: $white;
+	font-size: 36px;
+	margin-bottom: 76px;
+	margin-top: 76px;
+}
+
+// @clayui/css overrides
+.card-page-item-header {
+	color: $white;
+}
+
+.prose {
+	font-size: 1.2rem;
+	line-height: 1.4;
+	font-weight: 400;
+	color: $secondary-d2;
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin-bottom: 1rem;
+	}
+	blockquote {
+		border-left: 0.25em solid #dfe2e5;
+		color: #6a737d;
+		font-size: $blockquote-font-size;
+		margin: 0 0 1rem;
+		padding: 0 1em;
+	}
+}
